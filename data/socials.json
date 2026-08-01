@@ -1,0 +1,13 @@
+[
+  { "name": "GitHub", "url": "https://github.com/Dev-moe-kyawaung", "icon": "github" },
+  { "name": "LinkedIn", "url": "https://www.linkedin.com/in/moe-kyaw-aung-2653093a1", "icon": "linkedin" },
+  { "name": "YouTube", "url": "https://www.youtube.com/channel/UCuTXUguZb4xjeL2nX8WJG", "icon": "youtube" },
+  { "name": "Bluesky", "url": "https://bsky.app/profile/moekyawaung96.bsky.social", "icon": "bluesky" },
+  { "name": "Tumblr", "url": "https://www.tumblr.com/moekyawaung", "icon": "tumblr" },
+  { "name": "Flickr", "url": "https://www.flickr.com/people/204037451@N06", "icon": "flickr" },
+  { "name": "Vimeo", "url": "https://vimeo.com/user252414232", "icon": "vimeo" },
+  { "name": "Gravatar", "url": "https://gravatar.com/moekyawaung13721", "icon": "globe" },
+  { "name": "Slack", "url": "https://moekyawaung.slack.com/", "icon": "slack" },
+  { "name": "Strikingly", "url": "http://moekyawaung2026.strikingly.com", "icon": "globe" },
+  { "name": "PayPal", "url": "https://www.paypal.com/paypalme/my/profile", "icon": "globe" }
+]
