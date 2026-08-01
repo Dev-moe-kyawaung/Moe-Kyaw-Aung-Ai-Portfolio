@@ -1,0 +1,47 @@
+[
+  {
+    "category": "Android / Mobile",
+    "icon": "📱",
+    "skills": ["Kotlin", "Jetpack Compose", "Android SDK", "Material 3", "Gradle", "ADB", "Room DB", "Navigation Component", "Paging 3", "Hilt/Dagger"]
+  },
+  {
+    "category": "Architecture",
+    "icon": "🏗️",
+    "skills": ["MVVM", "MVI", "Clean Architecture", "Multi-module", "SOLID", "OOP", "Repository Pattern", "Use Cases", "Domain Layer"]
+  },
+  {
+    "category": "Backend & Cloud",
+    "icon": "☁️",
+    "skills": ["Firebase", "REST APIs", "Retrofit", "OkHttp", "Node.js", "Python", "Firebase Auth", "Cloud Firestore", "Cloud Functions"]
+  },
+  {
+    "category": "AI / Machine Learning",
+    "icon": "🤖",
+    "skills": ["Claude API", "TFLite", "On-Device ML", "Python ML", "NLP", "Data Analysis", "ML Kit", "Model Quantization"]
+  },
+  {
+    "category": "DevOps & Tools",
+    "icon": "🛠️",
+    "skills": ["Git", "GitHub Actions", "CI/CD", "Docker", "Linux", "Figma", "VS Code", "Android Studio", "Postman"]
+  },
+  {
+    "category": "Security",
+    "icon": "🔐",
+    "skills": ["Ethical Hacking", "Kali Linux", "Network Security", "Cryptography", "OWASP", "Pen Testing", "Digital Forensics"]
+  },
+  {
+    "category": "Programming Languages",
+    "icon": "⌨️",
+    "skills": ["Kotlin", "Java", "Python", "JavaScript", "TypeScript", "Dart", "C", "C++", "C#", "Ruby", "Rust", "Go"]
+  },
+  {
+    "category": "Web Development",
+    "icon": "🌐",
+    "skills": ["React", "Next.js", "Vue.js", "HTML5", "CSS3", "Tailwind CSS", "Node.js", "Express.js", "GraphQL"]
+  },
+  {
+    "category": "Databases",
+    "icon": "🗄️",
+    "skills": ["SQLite", "Room", "Firestore", "MongoDB", "PostgreSQL", "Redis", "Realm"]
+  }
+]
