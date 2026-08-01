@@ -1,0 +1,30 @@
+# .gitlab-ci.yml
+image: node:18
+
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  script:
+    - npm ci
+    - npm run build
+  artifacts:
+    paths:
+      - out/
+    expire_in: 1 day
+
+pages:
+  stage: deploy
+  script:
+    - cp -r out/ public/
+  artifacts:
+    paths:
+      - public/
+  only:
+    - main
