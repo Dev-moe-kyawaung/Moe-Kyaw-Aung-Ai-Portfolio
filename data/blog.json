@@ -1,0 +1,62 @@
+[
+  {
+    "id": "blog-1",
+    "title": "Clean Architecture in Android: A Senior Developer's Guide",
+    "excerpt": "Exploring the principles of Clean Architecture and how they apply to modern Android development with Jetpack Compose. Learn how to structure your app for scalability, testability, and maintainability.",
+    "date": "Dec 15, 2024",
+    "readTime": "8 min read",
+    "category": "Architecture",
+    "tags": ["Android", "Clean Architecture", "MVVM", "Jetpack Compose"],
+    "content": "# Clean Architecture in Android\n\n## Introduction\n\nClean Architecture is a software design philosophy that promotes separation of concerns..."
+  },
+  {
+    "id": "blog-2",
+    "title": "Optimizing Kotlin Coroutines for Production Apps",
+    "excerpt": "Best practices for managing coroutine scopes, error handling, and performance optimization in large-scale Android applications.",
+    "date": "Nov 28, 2024",
+    "readTime": "6 min read",
+    "category": "Kotlin",
+    "tags": ["Kotlin", "Coroutines", "Async", "Performance"],
+    "content": "# Optimizing Kotlin Coroutines\n\n## Introduction\n\nCoroutines are powerful, but improper usage can lead to memory leaks..."
+  },
+  {
+    "id": "blog-3",
+    "title": "On-Device AI with TensorFlow Lite: A Practical Guide",
+    "excerpt": "How to integrate machine learning models directly into Android apps for real-time, offline-capable AI features.",
+    "date": "Oct 10, 2024",
+    "readTime": "10 min read",
+    "category": "AI/ML",
+    "tags": ["AI", "TensorFlow Lite", "ML", "Android"],
+    "content": "# On-Device AI with TFLite\n\n## Introduction\n\nTensorFlow Lite enables on-device machine learning..."
+  },
+  {
+    "id": "blog-4",
+    "title": "Building Multi-Module Android Apps: Why and How",
+    "excerpt": "A deep dive into modularization strategies for Android applications. Discover the benefits of multi-module architecture and practical implementation steps.",
+    "date": "Sep 5, 2024",
+    "readTime": "12 min read",
+    "category": "Architecture",
+    "tags": ["Android", "Modularization", "Gradle", "Architecture"],
+    "content": "# Multi-Module Android Apps\n\n## Introduction\n\nModularization is a key strategy for scaling Android applications..."
+  },
+  {
+    "id": "blog-5",
+    "title": "Mastering Jetpack Compose: Advanced Patterns",
+    "excerpt": "Go beyond the basics with advanced Jetpack Compose patterns including custom layouts, animations, and state management techniques.",
+    "date": "Aug 12, 2024",
+    "readTime": "7 min read",
+    "category": "Android",
+    "tags": ["Jetpack Compose", "UI", "Android", "Kotlin"],
+    "content": "# Advanced Jetpack Compose\n\n## Introduction\n\nJetpack Compose revolutionizes Android UI development..."
+  },
+  {
+    "id": "blog-6",
+    "title": "Firebase vs Custom Backend: Choosing the Right Solution",
+    "excerpt": "An honest comparison of Firebase and custom backend solutions for Android applications. When to use each and how to combine them effectively.",
+    "date": "Jul 20, 2024",
+    "readTime": "5 min read",
+    "category": "Backend",
+    "tags": ["Firebase", "Backend", "BaaS", "Android"],
+    "content": "# Firebase vs Custom Backend\n\n## Introduction\n\nChoosing the right backend is critical for your app's success..."
+  }
+]
