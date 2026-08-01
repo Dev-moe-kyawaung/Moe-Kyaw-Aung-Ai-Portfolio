@@ -1,0 +1,16 @@
+# robots.txt for moekyawaung.dev
+# https://moekyawaung.dev
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://moekyawaung.dev/sitemap.xml
+
+# Disallow admin or private paths
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Crawl delay for polite bots
+Crawl-delay: 10
