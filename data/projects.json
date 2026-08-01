@@ -1,0 +1,92 @@
+[
+  {
+    "id": "pulsesync",
+    "title": "PulseSync",
+    "subtitle": "Real-time Sync Platform",
+    "gradient": "from-[#00E5FF] to-[#C9A84C]",
+    "category": "Android",
+    "image": "/images/pulsesync-banner.jpg",
+    "videoUrl": "/videos/pulsesync-demo.mp4",
+    "overview": "Advanced multi-module Android application demonstrating senior-level architecture, Firebase backend, and offline-first design with real-time conflict resolution.",
+    "techStack": ["Kotlin", "Jetpack Compose", "Firebase", "MVVM", "Clean Architecture", "CI/CD"],
+    "features": [
+      "Offline-first architecture with local caching",
+      "Real-time sync using Firebase Firestore",
+      "Multi-module project structure",
+      "CI/CD pipeline with GitHub Actions",
+      "Comprehensive test coverage"
+    ],
+    "architecture": "Clean Architecture with feature-first modularization. Each feature is an independent module with its own data, domain, and presentation layers.",
+    "challenges": [
+      "Real-time conflict resolution for offline edits",
+      "Optimizing cold start times in multi-module app",
+      "Managing state across complex data flows"
+    ],
+    "solutions": [
+      "Implemented CRDTs with Firebase Firestore",
+      "Used Baseline Profiles and lazy loading",
+      "Adopted MVI pattern for predictable state management"
+    ],
+    "links": {
+      "github": "https://github.com/Dev-moe-kyawaung/pulsesync-android",
+      "live": "#",
+      "blog": "#"
+    }
+  },
+  {
+    "id": "moekyawtranslator",
+    "title": "MoekyawTranslator",
+    "subtitle": "AI-Powered Translation",
+    "gradient": "from-[#C9A84C] to-[#00E5FF]",
+    "category": "Android",
+    "image": "/images/translator-banner.jpg",
+    "overview": "An intelligent translation application leveraging on-device AI with TensorFlow Lite and Cloud APIs for seamless multilingual communication.",
+    "techStack": ["Kotlin", "Jetpack Compose", "TensorFlow Lite", "ML Kit", "Firebase", "Coroutines"],
+    "features": [
+      "On-device translation for 50+ languages",
+      "Camera-based text translation",
+      "Voice input support",
+      "Offline mode for common phrases"
+    ],
+    "architecture": "MVVM with Repository pattern. Uses TFLite for on-device inference and Firebase ML for cloud-based fallback.",
+    "challenges": [
+      "Balancing accuracy with on-device performance",
+      "Handling diverse language pairs efficiently"
+    ],
+    "solutions": [
+      "Quantized TFLite models for faster inference",
+      "Hybrid approach: device-first, cloud fallback"
+    ],
+    "links": {
+      "github": "https://github.com/Dev-moe-kyawaung/moekyawtranslator",
+      "live": "#"
+    }
+  },
+  {
+    "id": "portfolio-2026",
+    "title": "Portfolio 2026",
+    "subtitle": "AI-Powered Developer Portfolio",
+    "gradient": "from-[#FF6B6B] to-[#00E5FF]",
+    "category": "Web",
+    "image": "/images/portfolio-banner.jpg",
+    "overview": "This very portfolio — a cinematic, dark-minimal showcase with glassmorphism, micro-interactions, and an AI assistant that explains projects.",
+    "techStack": ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Three.js", "Claude API"],
+    "features": [
+      "Multilingual AI assistant for project explanations",
+      "3D interactive elements",
+      "Animated cursor and particle background",
+      "Dark/Light mode toggle"
+    ],
+    "architecture": "Next.js App Router with server components for performance, client components for interactivity.",
+    "challenges": [
+      "Integrating AI assistant with real-time context"
+    ],
+    "solutions": [
+      "Serverless API routes with Claude API integration"
+    ],
+    "links": {
+      "github": "https://github.com/Dev-moe-kyawaung/moe-kyaw-aung-portfolio",
+      "live": "https://moekyawaung.dev"
+    }
+  }
+]
