@@ -1,0 +1,19 @@
+# .codeberg.yml
+# Codeberg Pages configuration
+
+image: node:18
+
+tasks:
+  - name: Build and Deploy
+    script:
+      - npm ci
+      - npm run build
+      - cp -r out/ public/
+
+pages:
+  - name: Deploy to Pages
+    script:
+      - echo "Deploying to Codeberg Pages..."
+    artifacts:
+      paths:
+        - public/
