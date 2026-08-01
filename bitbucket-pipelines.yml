@@ -1,0 +1,15 @@
+# bitbucket-pipelines.yml
+image: node:18
+
+pipelines:
+  default:
+    - step:
+        name: Build and Deploy
+        caches:
+          - node
+        script:
+          - npm ci
+          - npm run build
+          - cp -r out/ public/
+        artifacts:
+          - public/**
