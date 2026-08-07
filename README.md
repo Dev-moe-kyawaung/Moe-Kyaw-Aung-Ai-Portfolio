@@ -27,7 +27,7 @@
 
 Cinematic, AI-powered, dark-minimal developer portfolio built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**. Features glassmorphism design, micro-interactions, project-forward case studies, and a multilingual AI assistant.
 
-**Live Demo:** [https://moekyawaung.dev](https://moekyawaung.dev)
+**Live Demo:** [https://dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Ai-Portfolio/](https://dev-moe-kyawaung.github.io/Moe-Kyaw-Aung-Ai-Portfolio/)
 
 ---
 
